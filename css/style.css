@@ -1,0 +1,113 @@
+body {
+  width: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777;
+  background: #777;
+  font-size: 18px;
+  display: grid;
+  grid-template-columns: auto auto auto auto auto;
+  grid-template-rows: auto auto auto auto auto auto auto;
+}
+
+.head {
+  text-align: center;
+  background: #ebebeb;
+  width: auto;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 1;
+  grid-row-end: 2;
+  padding: 40px 0px 40px 0px;
+ margin-bottom: 10px;
+}
+
+.nav {
+  text-align: center;
+  background: #ebebeb;
+  width: auto;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+  padding: 40px 0px 40px 0px;
+  margin-bottom: 15px;
+}
+
+.section {
+  background: #ebebeb;
+  width: auto;
+  text-align: center;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 5;
+  grid-row-end: 6;
+  padding: 40px 0px 40px 0px;
+  margin:0px 10px 10px 0px; 
+
+
+}
+
+ .aside {
+  background: #ebebeb;
+  width: auto;
+  text-align: center;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 5;
+  grid-row-end: 11;
+  padding: 40px 0px 0px 0px;
+  margin-left: 10px;
+
+}
+
+.article {
+  background: #777;
+  color: #ebebeb;
+  text-align: center;
+  width: auto;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 6;
+  grid-row-end: 7;
+  padding: 20px 0px 20px 0px;
+  margin: 0px 10px 10px 0px;
+
+}
+
+.headers {
+  background: #ebebeb;
+  text-align: center;
+  width: auto;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 8;
+  grid-row-end: 9;
+  padding: 20px 0px 20px 0px;
+  margin: 0px 10px 10px 0px;
+
+}
+
+.paragraph {
+  background: #ebebeb;
+  text-align: center;
+  width: auto;
+  grid-column-start: 2;
+  grid-column-end: 4;
+  grid-row-start: 10;
+  grid-row-end: 11;
+  padding: 20px 0px 20px 0px;
+  margin: 0px 10px 10px 0px;
+
+} 
+
+.footer {
+  background: #ebebeb;
+  text-align: center;
+  width: auto;
+  grid-column-start: 2;
+  grid-column-end: 5;
+  grid-row-start: 12;
+  grid-row-end: 13;
+  padding: 40px;
+  margin-top: 10px;
+}
